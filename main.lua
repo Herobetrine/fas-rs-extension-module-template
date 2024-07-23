@@ -1,6 +1,6 @@
 -- fas-rs 使用它来提供指定版本的api
 -- fas-rs use this to provide version-specified api
-API_VERSION = 0
+API_VERSION = 1
 --
 -- 中文:
 -- 该枚举对应的lua函数
@@ -48,6 +48,9 @@ API_VERSION = 0
 -- log_debug("message")
 -- 打印一个debug等级日志到/sdcard/Android/fas-rs/fas_log.txt，
 -- 此等级在fas-rs的release build不开启
+--
+-- set_policy_freq_offset(policy, offset)
+-- 设置指定集群的fas频率偏移量，可为负数
 --
 -- ------------------------------------
 --
@@ -98,6 +101,9 @@ API_VERSION = 0
 -- log_debug("message")
 -- Print a debug level log to /sdcard/Android/fas-rs/fas_log.txt,
 -- This level is not enabled in the release build of fas-rs.
+--
+-- set_policy_freq_offset(policy, offset)
+-- Sets the FAS frequency offset for the specified cluster, which can be a negative number.
 --
 log_info("hello world") -- Initial
 
