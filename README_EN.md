@@ -15,6 +15,7 @@
 | extension api | Minimum fas-rs version |
 | --- | --- |
 | v0 (default when no api version is declared) | v2.3.0 |
+| v1 | v3.0.0 |
 
 ## **Use**
 
